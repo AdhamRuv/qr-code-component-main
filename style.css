@@ -23,7 +23,12 @@ body {
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    font-family: "Outfit", sans-serif;  
+    font-family: "Outfit", sans-serif;
+    box-shadow: -25px 25px 75px 0px var(--Grayish-blue);
+    -webkit-box-shadow: -25px 25px 75px 0px var(--Grayish-blue);
+    -moz-box-shadow: -25px 25px 75px 0px var(--Grayish-blue);
+    -ms-box-shadow: -25px 25px 75px 0px var(--Grayish-blue);
+    -o-box-shadow: -25px 25px 75px 0px var(--Grayish-blue);
 }
 .parent div:first-child img {
     width: var(--main-width);
