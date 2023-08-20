@@ -1,0 +1,45 @@
+:root {
+
+/* ## Colors */
+
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+--main-width: 340px;
+}
+body {
+    background-color: var(--Light-gray);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.parent {
+    background-color: var(--White);
+    width: var(--main-width);
+    height: 570px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;  
+}
+.parent div:first-child img {
+    width: var(--main-width);
+    height: var(--main-width);
+    border-radius: 10px;
+}
+.parent .text {
+    padding: 10px;
+}
+.parent .text h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--Dark-blue)
+}
+.parent .text div {
+    font-size: 18.5px;
+    font-weight: 400;
+    color: var(--Grayish-blue)
+}
